@@ -24,14 +24,15 @@ void:
 	echo "tags = []" >> "$$file"; \
 	echo "" >> "$$file"; \
 	echo "[extra]" >> "$$file"; \
-	echo "# image = \"images/placeholder.jpg\"" >> "$$file"; \
+	echo "# preview_image = \"images/preview.jpg\"" >> "$$file"; \
+	echo "# images = [\"images/photo1.jpg\", \"images/photo2.jpg\"]" >> "$$file"; \
 	echo "+++" >> "$$file"; \
 	echo "" >> "$$file"; \
 	echo "Description goes here." >> "$$file"; \
 	echo "" >> "$$file"; \
-	echo "## Process" >> "$$file"; \
+	echo "### Process" >> "$$file"; \
 	echo "" >> "$$file"; \
-	echo "## Materials" >> "$$file"; \
+	echo "### Materials" >> "$$file"; \
 	echo "" >> "$$file"; \
 	echo "Created $$file with URL: /voids/$$slug/"
 

@@ -19,7 +19,7 @@
     <div class="zig-zag-line zig-zag-top"></div>
 
     <nav>
-      <a href="/" {% if current_path == "/" %}class="active"{% endif %}>Voids</a>
+      <a href="/" {% if current_path == "/" or current_path is starting_with("/voids") %}class="active"{% endif %}>Voids</a>
       <a href="/about" {% if current_path is starting_with("/about") %}class="active"{% endif %}>About</a>
       <a href="/tags" {% if current_path is starting_with("/tags") %}class="active"{% endif %}>Tags</a>
     </nav>
@@ -37,7 +37,7 @@
       <div class="zig-zag-line zig-zag-left"></div>
 
       <nav>
-        <a href="/" {% if current_path == "/" %}class="active"{% endif %}>Voids</a>
+        <a href="/" {% if current_path == "/" or current_path is starting_with("/voids") %}class="active"{% endif %}>Voids</a>
         <a href="/about" {% if current_path is starting_with("/about") %}class="active"{% endif %}>About</a>
         <a href="/tags" {% if current_path is starting_with("/tags") %}class="active"{% endif %}>Tags</a>
       </nav>
