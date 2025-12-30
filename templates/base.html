@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}{{ config.title }}{% endblock %}</title>
+  <meta name="description" content="{{ config.description }}">
+  <link rel="stylesheet" href="{{ get_url(path="styles/base.css") }}">
+  {% block extra_head %}{% endblock %}
+</head>
+<body>
+  <!-- Mobile header -->
+  <div class="header-mobile">
+    <header>
+      <h1><a href="/">{{ config.title }}</a></h1>
+      <p>{{ config.description }}</p>
+    </header>
+
+    <div class="zig-zag-line zig-zag-top"></div>
+
+    <nav>
+      <a href="/" {% if current_path == "/" %}class="active"{% endif %}>Voids</a>
+      <a href="/about" {% if current_path is starting_with("/about") %}class="active"{% endif %}>About</a>
+      <a href="/tags" {% if current_path is starting_with("/tags") %}class="active"{% endif %}>Tags</a>
+    </nav>
+
+    <div class="zig-zag-line zig-zag-bottom"></div>
+  </div>
+
+  <!-- Landscape header -->
+  <div class="header-landscape">
+    <header>
+      <h1><a href="/">{{ config.title }}</a></h1>
+    </header>
+
+    <div class="nav-container-landscape">
+      <div class="zig-zag-line zig-zag-left"></div>
+
+      <nav>
+        <a href="/" {% if current_path == "/" %}class="active"{% endif %}>Voids</a>
+        <a href="/about" {% if current_path is starting_with("/about") %}class="active"{% endif %}>About</a>
+        <a href="/tags" {% if current_path is starting_with("/tags") %}class="active"{% endif %}>Tags</a>
+      </nav>
+
+      <div class="zig-zag-line zig-zag-right"></div>
+    </div>
+  </div>
+
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+  <div class="zig-zag-line"/></div>
+
+  <footer>
+    <p>&copy; {{ now() | date(format="%Y") }}</p>
+  </footer>
+</body>
+</html>

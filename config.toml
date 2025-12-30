@@ -1,0 +1,15 @@
+title = "Gnarly Void"
+description = "sometimes... the Void screams back"
+base_url = "https://gnarlyvoid.com"
+
+compile_sass = false
+build_search_index = false
+
+[[taxonomies]]
+name = "tags"
+feed = true
+
+[markdown]
+highlight_code = false
+
+[extra]

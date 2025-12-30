@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Gnarly Void - pottery</title>
+    <subtitle>Handmade objects from the void</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://gnarlyvoid.com/tags/pottery/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://gnarlyvoid.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-12-22T00:00:00+00:00</updated>
+    <id>https://gnarlyvoid.com/tags/pottery/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Example Void</title>
+        <published>2025-12-22T00:00:00+00:00</published>
+        <updated>2025-12-22T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://gnarlyvoid.com/voids/example-void/"/>
+        <id>https://gnarlyvoid.com/voids/example-void/</id>
+        
+        <content type="html" xml:base="https://gnarlyvoid.com/voids/example-void/">&lt;p&gt;This is an example void showcasing handmade work.&lt;&#x2F;p&gt;
+&lt;p&gt;Add your description, process notes, and images here.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;images&#x2F;placeholder.jpg&quot; alt=&quot;Example image&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;process&quot;&gt;Process&lt;&#x2F;h2&gt;
+&lt;p&gt;Describe your process here.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;materials&quot;&gt;Materials&lt;&#x2F;h2&gt;
+&lt;p&gt;List materials used.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
