@@ -8,8 +8,10 @@
 <div class="voids-grid">
   {% for page in term.pages %}
   <article class="void-card">
-    {% if page.extra.image %}
-    <img src="{{ get_url(path=page.extra.image) }}" alt="{{ page.title }}">
+    {% if page.extra.preview_image %}
+    <a href="{{ page.permalink }}">
+      <img src="{{ get_url(path=page.extra.preview_image) }}" alt="{{ page.title }}">
+    </a>
     {% endif %}
     <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
     <p class="void-meta">{{ page.date | date(format="%B %d, %Y") }}</p>
