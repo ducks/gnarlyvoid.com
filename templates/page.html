@@ -4,7 +4,7 @@
 
 {% block content %}
 <article class="void">
-  <h1>{{ page.title }}</h1>
+  <h2>{{ page.title }}</h2>
 
   {% if page.taxonomies.tags %}
   <p class="void-meta">{{ page.date | date(format="%B %d, %Y") }}</p>
@@ -14,6 +14,14 @@
   <div class="tags">
     {% for tag in page.taxonomies.tags %}
     <a href="{{ get_taxonomy_url(kind="tags", name=tag) }}" class="tag">{{ tag }}</a>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if page.extra.images %}
+  <div class="void-images">
+    {% for image in page.extra.images %}
+    <img src="{{ get_url(path=image) }}" alt="{{ page.title }}">
     {% endfor %}
   </div>
   {% endif %}
