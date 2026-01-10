@@ -2,6 +2,46 @@
 
 {% block title %}{{ page.title }} - {{ config.title }}{% endblock %}
 
+{% block extra_head %}
+{% if page %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title }}",
+  "datePublished": "{{ page.date | date(format='%Y-%m-%dT%H:%M:%S%z') }}",
+  {% if page.description %}
+  "description": "{{ page.description }}",
+  {% endif %}
+  "author": {
+    "@type": "Person",
+    "name": "{{ config.title }}"
+  },
+  {% if page.extra.preview_image %}
+  "image": "{{ get_url(path=page.extra.preview_image) }}",
+  {% endif %}
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ config.title }}",
+    "url": "{{ config.base_url }}"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ page.permalink }}"
+  }
+  {% if page.taxonomies.tags %}
+  ,
+  "keywords": [
+    {% for tag in page.taxonomies.tags %}
+    "{{ tag }}"{% if not loop.last %},{% endif %}
+    {% endfor %}
+  ]
+  {% endif %}
+}
+</script>
+{% endif %}
+{% endblock %}
+
 {% block content %}
 <article class="void">
   <h2>{{ page.title }}</h2>
