@@ -220,6 +220,58 @@ footer {
   line-height: 1.8;
 }
 
+.void-content h3,
+.void-content h4,
+.void-content h5,
+.void-content h6 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.void-content ul,
+.void-content ol {
+  margin: 1rem 0 1rem 0.75rem;
+  padding-left: 0.25rem;
+}
+
+.void-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.void-content ul li {
+  list-style-type: none;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.void-content ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--color-accent);
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.void-content ol {
+  counter-reset: list-counter;
+}
+
+.void-content ol li {
+  counter-increment: list-counter;
+  position: relative;
+  padding-left: 2rem;
+}
+
+.void-content ol li::before {
+  content: counter(list-counter) ".";
+  position: absolute;
+  left: 0;
+  color: var(--color-accent);
+  font-weight: bold;
+}
+
 .void-content img {
   max-width: 100%;
   height: auto;
