@@ -14,6 +14,9 @@ void:
 		next=$$(($$last + 1)); \
 	fi; \
 	slug=$$next; \
+	branch="post/void-$$slug"; \
+	echo "Creating branch $$branch..."; \
+	git checkout -b "$$branch"; \
 	file="content/voids/$$slug.md"; \
 	echo "Creating $$file..."; \
 	echo "+++" > "$$file"; \
