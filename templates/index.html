@@ -11,6 +11,9 @@
     </a>
     {% endif %}
     <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
+    {% if page.description %}
+    <p class="void-description">{{ page.description }}</p>
+    {% endif %}
     {% if page.taxonomies.tags %}
     <p class="void-meta">{{ page.date | date(format="%B %d, %Y") }}</p>
     {% endif %}
