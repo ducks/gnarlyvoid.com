@@ -220,6 +220,10 @@ footer {
   line-height: 1.8;
 }
 
+.void-content p {
+  margin-bottom: 1rem;
+}
+
 .void-content h3,
 .void-content h4,
 .void-content h5,
