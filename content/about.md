@@ -3,7 +3,7 @@ title = "About"
 date = 2025-12-30
 +++
 
-Gnarly Void is an ongoing art practice centered on making physical objects by
+Gnarly Void is an maker site centered on creating physical objects by
 hand. The work spans clay, fiber, wood, and mixed materials, with each piece
 emerging from long stretches of focused, uninterrupted making.
 
