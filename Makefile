@@ -32,7 +32,7 @@ void:
 	echo "" >> "$$file"; \
 	echo "[taxonomies]" >> "$$file"; \
 	if [ -n "$$tags" ]; then \
-		echo "tags = ["; \
+		echo -n "tags = [" >> "$$file"; \
 		IFS=','; \
 		first=true; \
 		for tag in $$tags; do \
@@ -50,8 +50,8 @@ void:
 	fi; \
 	echo "" >> "$$file"; \
 	echo "[extra]" >> "$$file"; \
-	echo "# preview_image = \"images/preview.jpg\"" >> "$$file"; \
-	echo "# images = [\"images/photo1.jpg\", \"images/photo2.jpg\"]" >> "$$file"; \
+	echo "preview_image = \"images/$$slug/1.jpeg\"" >> "$$file"; \
+	echo "images = [\"images/$$slug/1.jpeg\", \"images/$$slug/2.jpeg\"]" >> "$$file"; \
 	echo "+++" >> "$$file"; \
 	echo "" >> "$$file"; \
 	echo "Description goes here." >> "$$file"; \
