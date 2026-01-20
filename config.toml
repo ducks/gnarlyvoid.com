@@ -9,6 +9,9 @@ build_search_index = false
 name = "tags"
 feed = true
 
+generate_feeds = true
+feed_filenames = ["rss.xml"]
+
 [markdown]
 highlight_code = false
 
