@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Gnarly Void - pottery</title>
+    <subtitle>Tuning the Silence Into A Harmony of Matter</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://gnarlyvoid.com/tags/pottery/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://gnarlyvoid.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-01-13T00:00:00+00:00</updated>
+    <id>https://gnarlyvoid.com/tags/pottery/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Glazed Pottery - Batch 2</title>
+        <published>2026-01-13T00:00:00+00:00</published>
+        <updated>2026-01-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://gnarlyvoid.com/voids/8/"/>
+        <id>https://gnarlyvoid.com/voids/8/</id>
+        
+        <content type="html" xml:base="https://gnarlyvoid.com/voids/8/">&lt;p&gt;This is now my second batch of glazed pottery. I&#x27;m definitely seeing improvements
+with my shaping and consistency. I was disappointed in a few of the overlapping
+glaze experiments I tried but that&#x27;s how you learn. At this point, I think I
+have enough pots and experience that I can start to get a little pickier with
+what I send to fire. I have a bunch of pinch pots that got bisque fired that I
+hope to glaze fire and show soon.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Glazed pottery - Batch 1</title>
+        <published>2026-01-02T00:00:00+00:00</published>
+        <updated>2026-01-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://gnarlyvoid.com/voids/3/"/>
+        <id>https://gnarlyvoid.com/voids/3/</id>
+        
+        <content type="html" xml:base="https://gnarlyvoid.com/voids/3/">&lt;h3 id=&quot;process&quot;&gt;Process&lt;&#x2F;h3&gt;
+&lt;p&gt;Slab built by hand&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;materials&quot;&gt;Materials&lt;&#x2F;h3&gt;
+&lt;p&gt;Clay from Georgie&#x27;s:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;White Salmon with Speckles&lt;&#x2F;li&gt;
+&lt;li&gt;Trail Mix&lt;&#x2F;li&gt;
+&lt;li&gt;Timberline&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Various glazes&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
