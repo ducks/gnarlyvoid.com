@@ -48,6 +48,7 @@
   --color-green: #7A9B6E;
   --color-green-dark: #4A6B47;
   --color-yellow: #E8B84D;
+  --color-blue: #83a598;
 }
 
 * {
@@ -234,7 +235,12 @@ footer a:hover {
   line-height: 1.8;
 }
 
+.void-content a {
+  color: var(--color-blue);
+}
+
 .void-content p {
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
@@ -264,7 +270,7 @@ footer a:hover {
 }
 
 .void-content ul li::before {
-  content: "•";
+  content: "*";
   position: absolute;
   left: 0;
   color: var(--color-accent);
