@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Gnarly Void - weaving</title>
+    <subtitle>Tuning the Silence Into A Harmony of Matter</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://gnarlyvoid.com/tags/weaving/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://gnarlyvoid.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-12-31T00:00:00+00:00</updated>
+    <id>https://gnarlyvoid.com/tags/weaving/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Vulfmon-inspired Black, Silver, Gold, and White Wall Weaving</title>
+        <published>2025-12-31T00:00:00+00:00</published>
+        <updated>2025-12-31T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://gnarlyvoid.com/voids/2/"/>
+        <id>https://gnarlyvoid.com/voids/2/</id>
+        
+        <content type="html" xml:base="https://gnarlyvoid.com/voids/2/">&lt;p&gt;Inspired by a piece seen in a Vulfmon video&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;process&quot;&gt;Process&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;materials&quot;&gt;Materials&lt;&#x2F;h3&gt;
+</content>
+        
+    </entry>
+</feed>
