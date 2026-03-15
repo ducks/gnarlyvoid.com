@@ -12,7 +12,7 @@ feed = true
 generate_feeds = true
 feed_filenames = ["rss.xml"]
 
-[markdown]
-highlight_code = false
+[markdown.highlighting]
+theme = "gruvbox-dark-hard"
 
 [extra]
