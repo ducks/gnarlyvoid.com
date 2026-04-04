@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Gnarly Void - nyc</title>
+    <subtitle>Tuning the Silence Into A Harmony of Matter</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://gnarlyvoid.com/tags/nyc/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://gnarlyvoid.com"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-01-14T00:00:00+00:00</updated>
+    <id>https://gnarlyvoid.com/tags/nyc/atom.xml</id>
+    <entry xml:lang="en">
+        <title>NYC MTA G Train fiber piece</title>
+        <published>2026-01-14T00:00:00+00:00</published>
+        <updated>2026-01-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://gnarlyvoid.com/voids/9/"/>
+        <id>https://gnarlyvoid.com/voids/9/</id>
+        
+        <content type="html" xml:base="https://gnarlyvoid.com/voids/9/">&lt;p&gt;This piece is dedicated to the G train in New York City.&lt;&#x2F;p&gt;
+&lt;p&gt;The G is an odd line. It does not touch Manhattan. It runs quietly through
+Brooklyn and Queens, connecting places that feel adjacent but rarely centered.
+It is often overlooked, often delayed, and deeply relied on by the people who
+use it every day.&lt;&#x2F;p&gt;
+&lt;p&gt;Rendered in soft fiber, the familiar green circle becomes tactile and slow.
+What is usually signage and schedule turns into something physical - dense,
+imperfect, and worn at the edges. The letterform holds its shape, but only just.
+The pile absorbs sharpness. The symbol becomes an object.&lt;&#x2F;p&gt;
+&lt;p&gt;Like the train itself, this piece is about persistence rather than spectacle.
+About movement that happens off to the side. About systems that are lived in
+more than they are noticed.&lt;&#x2F;p&gt;
+&lt;p&gt;A transit mark translated into texture.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
