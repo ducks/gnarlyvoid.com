@@ -61,7 +61,7 @@ date = YYYY-MM-DD
 description = "One sentence, concrete, describing the piece and its hook"
 
 [taxonomies]
-tags = ["tufted", "fiber", ...]   # lowercase; reuse existing tags where they fit
+tags = ["tufting", "fiber", ...]  # lowercase; reuse existing tags where they fit
 
 [extra]
 preview_image = "images/<N>/1.jpg"
