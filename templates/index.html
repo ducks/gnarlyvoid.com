@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 
+{% block title %}Gnarly Void - Tufted Fiber Art and Handmade Objects from the PNW{% endblock %}
+
 {% block content %}
+<h1 class="visually-hidden">{{ config.title }}: {{ config.description }}</h1>
 <div class="voids-grid">
   {% set voids_section = get_section(path="voids/_index.md") %}
   {% for page in voids_section.pages %}
