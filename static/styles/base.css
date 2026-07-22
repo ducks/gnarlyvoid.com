@@ -85,7 +85,7 @@ header {
   text-align: center;
 }
 
-header h1 {
+header .site-title {
   font-family: 'Manchego', serif;
   font-size: 4rem;
   margin-bottom: 0.5rem;
@@ -95,7 +95,7 @@ header h1 {
   justify-content: center;
 }
 
-header h1 a {
+header .site-title a {
   text-decoration: none;
   color: var(--color-bg);
   display: inline-block;
@@ -225,9 +225,21 @@ footer a:hover {
   color: var(--color-bg);
 }
 
-.void h2:first-of-type {
+.void h1:first-of-type {
   font-size: clamp(2.5rem, 5vw, 3.5rem);
   margin-bottom: 1rem;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .void-content {
@@ -393,11 +405,11 @@ footer a:hover {
     margin-bottom: 0;
   }
 
-  .header-landscape header h1 {
+  .header-landscape header .site-title {
     margin: 0;
   }
 
-  .header-landscape header h1 a {
+  .header-landscape header .site-title a {
     width: 20rem;
     height: 20rem;
     padding: 2rem 1rem 1rem 1rem;

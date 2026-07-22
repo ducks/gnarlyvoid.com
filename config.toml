@@ -1,18 +1,20 @@
 title = "Gnarly Void"
-description = "Various wares from the PNW"
+description = "Tufted fiber art, weaving, pottery, and handmade objects by Jake Goldsborough in the Pacific Northwest."
+author = "site@gnarlyvoid.com (Jake Goldsborough)"
 base_url = "https://gnarlyvoid.com"
 
 compile_sass = false
 build_search_index = false
 
+generate_feeds = true
+feed_filenames = ["rss.xml"]
+
 [[taxonomies]]
 name = "tags"
 feed = true
-
-generate_feeds = true
-feed_filenames = ["rss.xml"]
 
 [markdown.highlighting]
 theme = "gruvbox-dark-hard"
 
 [extra]
+tagline = "Various wares from the PNW"
