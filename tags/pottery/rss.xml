@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Gnarly Void - pottery</title>
+      <link>https://gnarlyvoid.com</link>
+      <description>Tufted fiber art, weaving, pottery, and handmade objects by Jake Goldsborough in the Pacific Northwest.</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://gnarlyvoid.com/tags/pottery/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Tue, 13 Jan 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Glazed Pottery - Batch 2</title>
+          <pubDate>Tue, 13 Jan 2026 00:00:00 +0000</pubDate>
+          <author>site@gnarlyvoid.com (Jake Goldsborough)</author>
+          <link>https://gnarlyvoid.com/voids/8/</link>
+          <guid>https://gnarlyvoid.com/voids/8/</guid>
+          <description xml:base="https://gnarlyvoid.com/voids/8/">&lt;p&gt;This is now my second batch of glazed pottery. I&#x27;m definitely seeing improvements
+with my shaping and consistency. I was disappointed in a few of the overlapping
+glaze experiments I tried but that&#x27;s how you learn. At this point, I think I
+have enough pots and experience that I can start to get a little pickier with
+what I send to fire. I have a bunch of pinch pots that got bisque fired that I
+hope to glaze fire and show soon.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Glazed pottery - Batch 1</title>
+          <pubDate>Fri, 02 Jan 2026 00:00:00 +0000</pubDate>
+          <author>site@gnarlyvoid.com (Jake Goldsborough)</author>
+          <link>https://gnarlyvoid.com/voids/3/</link>
+          <guid>https://gnarlyvoid.com/voids/3/</guid>
+          <description xml:base="https://gnarlyvoid.com/voids/3/">&lt;h3 id=&quot;process&quot;&gt;Process&lt;&#x2F;h3&gt;
+&lt;p&gt;Slab built by hand&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;materials&quot;&gt;Materials&lt;&#x2F;h3&gt;
+&lt;p&gt;Clay from Georgie&#x27;s:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;White Salmon with Speckles&lt;&#x2F;li&gt;
+&lt;li&gt;Trail Mix&lt;&#x2F;li&gt;
+&lt;li&gt;Timberline&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Various glazes&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

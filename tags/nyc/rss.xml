@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Gnarly Void - nyc</title>
+      <link>https://gnarlyvoid.com</link>
+      <description>Tufted fiber art, weaving, pottery, and handmade objects by Jake Goldsborough in the Pacific Northwest.</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://gnarlyvoid.com/tags/nyc/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>NYC MTA G Train fiber piece</title>
+          <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
+          <author>site@gnarlyvoid.com (Jake Goldsborough)</author>
+          <link>https://gnarlyvoid.com/voids/9/</link>
+          <guid>https://gnarlyvoid.com/voids/9/</guid>
+          <description xml:base="https://gnarlyvoid.com/voids/9/">&lt;p&gt;This piece is dedicated to the G train in New York City.&lt;&#x2F;p&gt;
+&lt;p&gt;The G is an odd line. It does not touch Manhattan. It runs quietly through
+Brooklyn and Queens, connecting places that feel adjacent but rarely centered.
+It is often overlooked, often delayed, and deeply relied on by the people who
+use it every day.&lt;&#x2F;p&gt;
+&lt;p&gt;Rendered in soft fiber, the familiar green circle becomes tactile and slow.
+What is usually signage and schedule turns into something physical - dense,
+imperfect, and worn at the edges. The letterform holds its shape, but only just.
+The pile absorbs sharpness. The symbol becomes an object.&lt;&#x2F;p&gt;
+&lt;p&gt;Like the train itself, this piece is about persistence rather than spectacle.
+About movement that happens off to the side. About systems that are lived in
+more than they are noticed.&lt;&#x2F;p&gt;
+&lt;p&gt;A transit mark translated into texture.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

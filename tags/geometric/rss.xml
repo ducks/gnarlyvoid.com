@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Gnarly Void - geometric</title>
+      <link>https://gnarlyvoid.com</link>
+      <description>Tufted fiber art, weaving, pottery, and handmade objects by Jake Goldsborough in the Pacific Northwest.</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://gnarlyvoid.com/tags/geometric/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sun, 19 Jul 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Penrose</title>
+          <pubDate>Sun, 19 Jul 2026 00:00:00 +0000</pubDate>
+          <author>site@gnarlyvoid.com (Jake Goldsborough)</author>
+          <link>https://gnarlyvoid.com/voids/19/</link>
+          <guid>https://gnarlyvoid.com/voids/19/</guid>
+          <description xml:base="https://gnarlyvoid.com/voids/19/">&lt;p&gt;An impossible object, made real.&lt;&#x2F;p&gt;
+&lt;p&gt;The Penrose triangle only exists as a drawing - three beams that meet at right
+angles no physical object could hold. Tufting it is a small act of defiance:
+taking a shape that cannot exist and giving it high-pile texture, weight, and a
+place to hang on a wall.&lt;&#x2F;p&gt;
+&lt;p&gt;The whole illusion rides on value. There&#x27;s no trick geometry here, just three
+faces in light gray, mid gray, and near-black, and the eye does the rest -
+reading the gradient as light falling across surfaces that fold impossibly into
+each other. Flatten the color and the magic collapses; it&#x27;s the tonal shift
+that keeps the beams turning.&lt;&#x2F;p&gt;
+&lt;p&gt;Tufted with dense, even pile, the hard edges of the figure stay crisp while the
+surface goes soft and inviting. Precision holds the shape; texture makes you
+want to touch the thing your eyes insist can&#x27;t be there.&lt;&#x2F;p&gt;
+&lt;p&gt;Penrose is a study in contradiction - rigid and plush, flat and dimensional,
+impossible and hanging right in front of you.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

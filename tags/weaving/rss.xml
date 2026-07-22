@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Gnarly Void - weaving</title>
+      <link>https://gnarlyvoid.com</link>
+      <description>Tufted fiber art, weaving, pottery, and handmade objects by Jake Goldsborough in the Pacific Northwest.</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://gnarlyvoid.com/tags/weaving/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Wed, 31 Dec 2025 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Vulfmon-inspired Black, Silver, Gold, and White Wall Weaving</title>
+          <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+          <author>site@gnarlyvoid.com (Jake Goldsborough)</author>
+          <link>https://gnarlyvoid.com/voids/2/</link>
+          <guid>https://gnarlyvoid.com/voids/2/</guid>
+          <description xml:base="https://gnarlyvoid.com/voids/2/">&lt;p&gt;Inspired by a piece seen in a Vulfmon video&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;process&quot;&gt;Process&lt;&#x2F;h3&gt;
+&lt;h3 id=&quot;materials&quot;&gt;Materials&lt;&#x2F;h3&gt;
+</description>
+      </item>
+    </channel>
+</rss>

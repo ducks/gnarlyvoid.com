@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Gnarly Void - bauhaus</title>
+      <link>https://gnarlyvoid.com</link>
+      <description>Tufted fiber art, weaving, pottery, and handmade objects by Jake Goldsborough in the Pacific Northwest.</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://gnarlyvoid.com/tags/bauhaus/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Bowlhaus I</title>
+          <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
+          <author>site@gnarlyvoid.com (Jake Goldsborough)</author>
+          <link>https://gnarlyvoid.com/voids/18/</link>
+          <guid>https://gnarlyvoid.com/voids/18/</guid>
+          <description xml:base="https://gnarlyvoid.com/voids/18/">&lt;p&gt;A study in form, balance, and bold reduction.&lt;&#x2F;p&gt;
+&lt;p&gt;This Bauhaus-inspired owl distills the subject down to its essential geometry -
+circles, arcs, and color blocks arranged with intention. The symmetry is almost
+mechanical, but the oversized eyes and softened edges keep it firmly in the
+realm of character.&lt;&#x2F;p&gt;
+&lt;p&gt;Primary colors anchor the composition against a deep black field, giving it
+that classic Bauhaus tension: function versus expression, system versus
+personality. The eyes pull you in immediately - equal parts alert, curious, and
+slightly surreal.&lt;&#x2F;p&gt;
+&lt;p&gt;Tufted with thick, high-pile texture, the rigid geometry breaks just enough at
+the edges to remind you this is still fiber, still handmade. Precision meets
+softness.&lt;&#x2F;p&gt;
+&lt;p&gt;Bowlhaus sits somewhere between mascot and modernist study - a minimal owl that
+feels both engineered and alive.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

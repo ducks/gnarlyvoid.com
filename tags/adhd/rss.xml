@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Gnarly Void - adhd</title>
+      <link>https://gnarlyvoid.com</link>
+      <description>Tufted fiber art, weaving, pottery, and handmade objects by Jake Goldsborough in the Pacific Northwest.</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://gnarlyvoid.com/tags/adhd/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sun, 11 Jan 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>A Tribute to My Lord and Savior, Vyvanse</title>
+          <pubDate>Sun, 11 Jan 2026 00:00:00 +0000</pubDate>
+          <author>site@gnarlyvoid.com (Jake Goldsborough)</author>
+          <link>https://gnarlyvoid.com/voids/6/</link>
+          <guid>https://gnarlyvoid.com/voids/6/</guid>
+          <description xml:base="https://gnarlyvoid.com/voids/6/">&lt;p&gt;A blue and white capsule inspired by Vyvanse. I was diagnosed later in life and
+this medicine has improved my life in ways I couldn&#x27;t imagine. I used to think
+I was just lazy or apathethic, but turns out my brain just functions differently.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
