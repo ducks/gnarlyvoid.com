@@ -59,6 +59,8 @@ fences. Fill in real values:
 title = "Short evocative title"
 date = YYYY-MM-DD
 description = "One sentence, concrete, describing the piece and its hook"
+slug = "descriptive-kebab-slug"    # the canonical URL: /voids/<slug>/
+aliases = ["/voids/<N>/"]          # keeps the short numeric URL working
 
 [taxonomies]
 tags = ["tufting", "fiber", ...]  # lowercase; reuse existing tags where they fit
@@ -70,6 +72,15 @@ images = ["images/<N>/1.jpg"]      # list every image you placed, in order
 
 Body copy here.
 ```
+
+**URLs:** the canonical page lives at `/voids/<slug>/` (descriptive,
+what Google indexes and what links should point to). The `aliases` line
+makes the short `/voids/<N>/` still resolve — Zola emits a redirect stub
+there pointing at the canonical slug. Every void needs both. Write the
+`slug` by hand: descriptive but tight, lowercase kebab-case, arabic
+numerals not roman (`bowlhaus-1`, not `bowlhaus-i`), no filler words.
+Don't rely on the auto-slug from the title — titles are often too long
+or awkward (`a-tribute-to-my-lord-and-savior-vyvanse`).
 
 Then the body: a short reflection, usually 3–5 short paragraphs. Read a few
 recent voids (`content/voids/16.md`, `17.md`, `18.md`) first and match the
