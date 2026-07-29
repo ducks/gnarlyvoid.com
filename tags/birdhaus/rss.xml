@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Gnarly Void - birdhaus</title>
+      <link>https://gnarlyvoid.com</link>
+      <description>Tufted fiber art, weaving, pottery, and handmade objects by Jake Goldsborough in the Pacific Northwest.</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://gnarlyvoid.com/tags/birdhaus/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Fri, 24 Jul 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Drake</title>
+          <pubDate>Fri, 24 Jul 2026 00:00:00 +0000</pubDate>
+          <author>site@gnarlyvoid.com (Jake Goldsborough)</author>
+          <link>https://gnarlyvoid.com/voids/drake/</link>
+          <guid>https://gnarlyvoid.com/voids/drake/</guid>
+          <description xml:base="https://gnarlyvoid.com/voids/drake/">&lt;p&gt;The wing is carved. That changes everything.&lt;&#x2F;p&gt;
+&lt;p&gt;Most tufted work earns its depth through pile alone; here the drake&#x27;s wing
+rides over the body in sculpted relief, so the bird actually stands off the
+wall. Cream shoulder, brown coverts, the blue speculum flashing between black
+and white bars - the one part of a mallard that looks designed gets the most
+dimensional treatment.&lt;&#x2F;p&gt;
+&lt;p&gt;Behind him the scene goes cubist: a red sun scored with black rules, gray-green
+bands of horizon, a ground plane shattered into blue and gray triangles. The
+bird is all field-guide fidelity - bottle-green head, white collar, chestnut
+breast, orange feet - standing in a landscape that gave up on realism entirely.
+He doesn&#x27;t seem to mind.&lt;&#x2F;p&gt;
+&lt;p&gt;A sculpted cream border traces the whole silhouette and squares it off, part
+frame, part halo, keeping the composition one object instead of a bird pasted
+on a backdrop.&lt;&#x2F;p&gt;
+&lt;p&gt;Drake holds the tension between taxidermy and toy - anatomically earnest,
+structurally playful, a specimen mounted in a world made of shapes.&lt;&#x2F;p&gt;
+&lt;p&gt;He&#x27;s a piece in the &lt;a href=&quot;https:&#x2F;&#x2F;birdhaus.art&quot;&gt;Birdhaus&lt;&#x2F;a&gt; series - forms over
+feathers - the red sun and its black bars carried from screen into pile.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

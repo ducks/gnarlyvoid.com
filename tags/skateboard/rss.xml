@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Gnarly Void - skateboard</title>
+      <link>https://gnarlyvoid.com</link>
+      <description>Tufted fiber art, weaving, pottery, and handmade objects by Jake Goldsborough in the Pacific Northwest.</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://gnarlyvoid.com/tags/skateboard/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Tue, 28 Jul 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Deck 001 &amp; Deck 002</title>
+          <pubDate>Tue, 28 Jul 2026 00:00:00 +0000</pubDate>
+          <author>site@gnarlyvoid.com (Jake Goldsborough)</author>
+          <link>https://gnarlyvoid.com/voids/two-decks-adx/</link>
+          <guid>https://gnarlyvoid.com/voids/two-decks-adx/</guid>
+          <description xml:base="https://gnarlyvoid.com/voids/two-decks-adx/">&lt;p&gt;Two decks for a show, tufted instead of painted.&lt;&#x2F;p&gt;
+&lt;p&gt;These went into a group skateboard deck show at &lt;a href=&quot;https:&#x2F;&#x2F;artdesignxchange.com&quot;&gt;ADX
+Portland&lt;&#x2F;a&gt;, the maker studio I&#x27;m a member
+of.
+The brief is the deck shape - that long rounded pill everyone knows -
+and what you do inside it is yours. I did what I always do: I reached
+for yarn instead of paint.&lt;&#x2F;p&gt;
+&lt;p&gt;Deck 001, on the left, is monochrome and hard-edged - cream, grays, and
+black cut into arcs, blocks, and angular shards, a little cubist, a
+little Bauhaus. It&#x27;s the more structural of the two: the composition
+does the work, and the palette stays out of its way.&lt;&#x2F;p&gt;
+&lt;p&gt;Deck 002 is the opposite instinct. Vertical bands of cream, rust,
+orange, gold, and brown running the length of the deck, a warm sunset
+laid down in stripes. No drawing, just color doing all the talking -
+the earth-tone cousin of the traffic-light and Birdhaus pieces.&lt;&#x2F;p&gt;
+&lt;p&gt;Same shape, two grammars: one that composes and one that glows. Hung
+side by side on the same wall, they read as a conversation - which is
+the fun of making two for one show instead of one.&lt;&#x2F;p&gt;
+&lt;p&gt;A skateboard is built to be ridden and scuffed. These are built to be
+touched and hung. Same silhouette, opposite fate.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
