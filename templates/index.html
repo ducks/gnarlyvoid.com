@@ -5,19 +5,25 @@
 {% block content %}
 <h1 class="visually-hidden">{{ config.title }}: {{ config.description }}</h1>
 <div class="voids-grid">
+  {# Merge art (voids) and writing, both transparent sections, into one grid
+     sorted by date descending. Writing posts render as text cards. #}
   {% set voids_section = get_section(path="voids/_index.md") %}
-  {% for page in voids_section.pages %}
-  <article class="void-card">
+  {% set writing_section = get_section(path="writing/_index.md") %}
+  {% set all_pages = voids_section.pages | concat(with=writing_section.pages) | sort(attribute="date") | reverse %}
+  {% for page in all_pages %}
+  <article class="void-card{% if page.extra.post_type | default(value="") == "writing" %} writing-card{% endif %}">
     {% if page.extra.preview_image %}
     <a href="{{ page.permalink }}">
       <img src="{{ get_url(path=page.extra.preview_image) }}" alt="{{ page.title }}">
     </a>
+    {% elif page.extra.post_type | default(value="") == "writing" %}
+    <a href="{{ page.permalink }}" class="writing-card-label">Writing</a>
     {% endif %}
     <h2><a href="{{ page.permalink }}">{{ page.title }}</a></h2>
     {% if page.description %}
     <p class="void-description">{{ page.description }}</p>
     {% endif %}
-    {% if page.taxonomies.tags %}
+    {% if page.date %}
     <p class="void-meta">{{ page.date | date(format="%B %d, %Y") }}</p>
     {% endif %}
     {% if page.taxonomies.tags %}

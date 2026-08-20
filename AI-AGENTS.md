@@ -116,9 +116,63 @@ Do not push or merge unless asked; leave the branch for a human to review
 and merge. Merges to `main` are `--no-ff`, and the GitHub Pages workflow
 deploys on merge.
 
+## Writing posts (a void that runs longer)
+
+A void is one object with a picture. A *writing post* is the same idea
+stretched out — an essay or note, which may carry several images or none.
+It shares the homepage stream and the site feed with the voids, sorted by
+date, but it's marked as an article (`BlogPosting`) rather than a
+`VisualArtwork`, and its images are optional.
+
+For a human, `make writing` prompts interactively. The manual steps:
+
+1. **Number and slug.** Files live at `content/writing/<N>.md`, `<N>` one
+   more than the highest existing writing post. Write a descriptive
+   `slug` by hand (kebab-case), same rules as a void.
+2. **Images (optional).** If the post has images, place them under
+   `static/images/writing/<N>/`, numbered `1`, `2`, ... (namespaced under
+   `writing/` so they don't collide with a void's `images/<N>/`). Keep
+   real extensions; don't rename. The first image is the preview shown in
+   the homepage card and the social/feed image. A post with no images is
+   fine — it shows a "Writing" label card in the grid instead.
+3. **Front matter.** TOML between `+++` fences. The differences from a
+   void: `post_type = "writing"` under `[extra]`, and the `images` /
+   `preview_image` keys are optional.
+
+   ```toml
+   +++
+   title = "Short title"
+   date = YYYY-MM-DD
+   description = "One concrete sentence"
+   slug = "descriptive-kebab-slug"   # canonical URL: /writing/<slug>/
+   aliases = ["/writing/<N>/"]        # short numeric URL still resolves
+
+   [taxonomies]
+   tags = ["meta", ...]              # optional; reuse existing tags
+
+   [extra]
+   post_type = "writing"
+   # Optional, same shape as a void when present:
+   # preview_image = "images/writing/<N>/1.jpg"
+   # images = ["images/writing/<N>/1.jpg", "images/writing/<N>/2.jpg"]
+   +++
+
+   Body copy here.
+   ```
+4. **Voice.** Same spare, confident register as the voids (read a few, e.g.
+   `content/voids/17.md`, `18.md`), just carried over a longer piece. No
+   emoji, no hype.
+5. **Verify.** `zola check` then `zola build` — expect the page count to
+   go up by one, no errors.
+6. **Branch.** `write/writing-<N>` (parallel to `post/void-<N>`). Commit
+   `content/writing/<N>.md` and any images under
+   `static/images/writing/<N>/`. Don't push or merge unless asked.
+
 ## Don'ts
 
 - Don't invent a description of art you haven't looked at.
 - Don't rename image extensions to force uniformity.
 - Don't edit existing voids while adding a new one.
 - Don't push or deploy without being asked — a void goes live on merge.
+- Don't give a writing post a `VisualArtwork` shape — set `post_type =
+  "writing"` so it's marked as an article.
