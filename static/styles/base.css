@@ -226,8 +226,12 @@ footer a:hover {
 
 /* The essay body: a comfortable reading measure, since writing runs longer
    than a void's short reflection. The image gallery is shared with voids. */
-.void.writing .void-content {
+/* A writing post is centered on the page and held to a comfortable reading
+   measure. Title, meta, images, and body all share the one centered column;
+   the text itself stays left-aligned (only the column is centered). */
+.void.writing {
   max-width: 42rem;
+  margin: 0 auto;
 }
 
 .tags {
