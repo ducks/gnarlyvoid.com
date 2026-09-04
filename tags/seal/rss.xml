@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Gnarly Void - seal</title>
+      <link>https://gnarlyvoid.com</link>
+      <description>Tufted fiber art, weaving, pottery, and handmade objects by Jake Goldsborough in the Pacific Northwest.</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://gnarlyvoid.com/tags/seal/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Fri, 04 Sep 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Sploot Seal</title>
+          <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+          <author>site@gnarlyvoid.com (Jake Goldsborough)</author>
+          <link>https://gnarlyvoid.com/voids/sploot-seal/</link>
+          <guid>https://gnarlyvoid.com/voids/sploot-seal/</guid>
+          <description xml:base="https://gnarlyvoid.com/voids/sploot-seal/">&lt;p&gt;A seal at full sploot.&lt;&#x2F;p&gt;
+&lt;p&gt;Grey pile takes up most of the frame, broad and soft-edged, with the cream
+face and belly opening a lighter shape through the middle. The flippers stretch
+out at either end, the body settles heavily into the canvas, and a handful of
+dark patches drift across the coat like loose marks on a drawing.&lt;&#x2F;p&gt;
+&lt;p&gt;The face does the quiet work. Two black eyes catch small white flashes, while
+the whiskers and nose stay deliberately simple. A heavy black outline keeps
+the silhouette readable even as the pile softens every edge inside it.&lt;&#x2F;p&gt;
+&lt;p&gt;It is an uncomplicated subject, but the scale changes the feeling. A seal&#x27;s
+compact body becomes a whole field of grey, something you could lie down beside
+as easily as hang on a wall. The cartoon is still there; the yarn gives it
+weight, warmth, and a very convincing place to sploot.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>

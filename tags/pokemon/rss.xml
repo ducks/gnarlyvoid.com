@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Gnarly Void - pokemon</title>
+      <link>https://gnarlyvoid.com</link>
+      <description>Tufted fiber art, weaving, pottery, and handmade objects by Jake Goldsborough in the Pacific Northwest.</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://gnarlyvoid.com/tags/pokemon/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Tue, 01 Sep 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Lugia</title>
+          <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+          <author>site@gnarlyvoid.com (Jake Goldsborough)</author>
+          <link>https://gnarlyvoid.com/voids/lugia-tufted/</link>
+          <guid>https://gnarlyvoid.com/voids/lugia-tufted/</guid>
+          <description xml:base="https://gnarlyvoid.com/voids/lugia-tufted/">&lt;p&gt;Lugia, suspended between flight and the wall.&lt;&#x2F;p&gt;
+&lt;p&gt;The wings take up almost the whole frame, broad and slightly uneven as if the
+creature has just pulled them in. The head and neck sit low between them, with
+the long tail curling down and back into the body. White, grey, and purple
+separate the planes without turning the image into a flat stack of color; the
+black outline gives every feathered shape somewhere to stop.&lt;&#x2F;p&gt;
+&lt;p&gt;The useful tension is between the subject&#x27;s weight and its posture. This is a
+large, dense rug, but Lugia is drawn as if it should be moving through air. The
+tufted loops catch the light differently across each section, so the wings read
+as volume while the heavy contour keeps the silhouette immediate from across
+the room. The white catches the light first, the greys settle the middle, and
+the purples give the shadows somewhere to deepen.&lt;&#x2F;p&gt;
+&lt;p&gt;The work stays recognizable as a Pokémon illustration, but the material changes
+the speed of it. Flight becomes something thick, soft, and fixed in place.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
