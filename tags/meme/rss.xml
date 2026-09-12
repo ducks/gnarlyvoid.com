@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Gnarly Void - meme</title>
+      <link>https://gnarlyvoid.com</link>
+      <description>Tufted fiber art, weaving, pottery, and handmade objects by Jake Goldsborough in the Pacific Northwest.</description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://gnarlyvoid.com/tags/meme/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sat, 12 Sep 2026 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Shocked Pikachu</title>
+          <pubDate>Sat, 12 Sep 2026 00:00:00 +0000</pubDate>
+          <author>site@gnarlyvoid.com (Jake Goldsborough)</author>
+          <link>https://gnarlyvoid.com/voids/shocked-pikachu/</link>
+          <guid>https://gnarlyvoid.com/voids/shocked-pikachu/</guid>
+          <description xml:base="https://gnarlyvoid.com/voids/shocked-pikachu/">&lt;p&gt;The shocked Pikachu meme, as a rug.&lt;&#x2F;p&gt;
+&lt;p&gt;The whole face is one flat field of yellow, cut to the silhouette so the ears
+reach up and out past any frame. There is almost nothing inside it: two round
+black eyes, a dot of a nose, a small pink mouth held open, and the red cheeks
+sitting low and wide. The black ear tips and the heavy contour around the
+outside are the only other marks.&lt;&#x2F;p&gt;
+&lt;p&gt;Everything hinges on the eyes. Each one carries a single white loop, set
+slightly off center, and that off-center placement is the entire expression.
+Move it a few tufts and the face is calm. Where it is now, the face is caught.&lt;&#x2F;p&gt;
+&lt;p&gt;The pile keeps the yellow uneven enough that it does not read as a print, and
+the mouth and cheeks pick up a little shadow along their edges where the color
+changes. The cut edge is where the tufting shows most, with the black backing
+outline pulled a little rough around the ears.&lt;&#x2F;p&gt;
+&lt;p&gt;It is a joke that has been repeated a few million times, made slowly by hand
+out of yarn. That is probably the funniest version of it.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
